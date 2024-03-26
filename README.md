@@ -8,6 +8,6 @@ On systems lacking Adobe Acrobat, `qpdf` may be used to encrypt PDFs:
 
 ```sh
 # Replace `[pass]`s with a password
-for f in *.pdf; do qpdf --encrypt [pass] [pass] 256 -- "$f" "protected-$f"; done
+For f in *.pdf; do qpdf --encrypt [pass] [pass] 256 -- "$f" "protected-$f"; done
 ```
 
